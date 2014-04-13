@@ -4,7 +4,7 @@ function(details) {
 			l = headers.length;
 	for(var i=0; i!==l; i++) {
 		if(headers[i].name === 'Referer') {
-			headers[i].value = 'http://youtube.com/embed/undefined?enablejsapi=1';
+			headers[i].value = 'https://www.google.com';
 		}
 	}
 	return {requestHeaders: details.requestHeaders};
